@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="875.0" prefWidth="1478.0" stylesheets="@../style/DashBoardStyle.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.hostel.controller.DashBoardFormController">
+   <children>
+      <ImageView fitHeight="181.0" fitWidth="665.0" layoutX="820.0" layoutY="650.0" opacity="0.87" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/IJSELOGO.png" />
+         </image>
+      </ImageView>
+      <Label alignment="CENTER" layoutX="890.0" layoutY="794.0" opacity="0.54" prefHeight="55.0" prefWidth="468.0" text="Hostel Management System" textFill="#222222">
+         <font>
+            <Font size="39.0" />
+         </font>
+      </Label>
+      <Label fx:id="date" alignment="CENTER" layoutX="1006.0" layoutY="210.0" opacity="0.64" prefHeight="39.0" prefWidth="438.0" text="Sunday, 27 August" textFill="#1b1b1b">
+         <font>
+            <Font size="40.0" />
+         </font>
+      </Label>
+      <JFXButton layoutX="14.0" layoutY="208.0" onAction="#btnStudentOnAction" onMouseEntered="#btnMouseEntered" onMouseExited="#btnMouseExit" prefHeight="150.0" prefWidth="244.0" styleClass="actionBtn" text=" " />
+      <JFXButton layoutX="14.0" layoutY="389.0" onAction="#btnRoomsOnAction" onMouseEntered="#btnMouseEntered" onMouseExited="#btnMouseExit" prefHeight="150.0" prefWidth="244.0" styleClass="actionBtn" text=" " />
+      <JFXButton layoutX="14.0" layoutY="574.0" onAction="#btnResuvationOnAction" onMouseEntered="#btnMouseEntered" onMouseExited="#btnMouseExit" prefHeight="150.0" prefWidth="244.0" styleClass="actionBtn" text=" " />
+      <Label alignment="CENTER" layoutX="370.0" layoutY="50.0" opacity="0.64" prefHeight="56.0" prefWidth="277.0" text="Pending Payment" textFill="#3c3c3c">
+         <font>
+            <Font size="35.0" />
+         </font>
+      </Label>
+      <Label fx:id="pendingPayment" alignment="CENTER" layoutX="441.0" layoutY="171.0" opacity="0.64" prefHeight="84.0" prefWidth="126.0" text="21" textFill="#6b6b6b">
+         <font>
+            <Font size="68.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="683.0" layoutY="54.0" opacity="0.64" prefHeight="56.0" prefWidth="287.0" text="Total Available" textFill="#3c3c3c">
+         <font>
+            <Font size="35.0" />
+         </font>
+      </Label>
+      <Label fx:id="availableRooms" alignment="CENTER" layoutX="789.0" layoutY="176.0" opacity="0.64" prefHeight="84.0" prefWidth="86.0" text="22" textFill="#6b6b6b">
+         <font>
+            <Font size="68.0" />
+         </font>
+      </Label>
+      <Line endX="3.3770713806152344" endY="29.32269287109375" layoutX="426.0" layoutY="205.0" startX="3.3770790100097656" startY="-41.0" />
+      <Line endX="27.97106170654297" endY="20.54925537109375" layoutX="431.0" layoutY="214.0" startX="-1.0000114440917969" startY="20.54925537109375" />
+      <Line endX="3.3770713806152344" endY="29.32269287109375" layoutX="749.0" layoutY="209.0" startX="3.3770790100097656" startY="-41.0" />
+      <Line endX="27.97106170654297" endY="20.54925537109375" layoutX="753.0" layoutY="219.0" startX="-1.0000114440917969" startY="20.54925537109375" />
+      <Label alignment="CENTER" layoutX="34.0" layoutY="215.0" opacity="0.64" prefHeight="21.0" prefWidth="86.0" text="Student" textFill="WHITE">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="35.0" layoutY="393.0" opacity="0.64" prefHeight="30.0" prefWidth="80.0" text="Rooms" textFill="WHITE">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="38.0" layoutY="581.0" opacity="0.64" prefHeight="29.0" prefWidth="126.0" text="Reservation" textFill="WHITE">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="35.0" layoutY="613.0" opacity="0.64" prefHeight="30.0" prefWidth="80.0" text="Details" textFill="WHITE">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="60.0" fitWidth="60.0" layoutX="57.0" layoutY="268.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/icon/icons8-employee-100.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="60.0" fitWidth="60.0" layoutX="48.0" layoutY="651.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/icon/icons8-details-100.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="60.0" fitWidth="60.0" layoutX="55.0" layoutY="445.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/icon/icons8-bed-100.png" />
+         </image>
+      </ImageView>
+      <Label alignment="CENTER" layoutX="362.0" layoutY="101.0" opacity="0.64" prefHeight="56.0" prefWidth="126.0" text="Count" textFill="#3c3c3c">
+         <font>
+            <Font size="35.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="703.0" layoutY="102.0" opacity="0.64" prefHeight="56.0" prefWidth="126.0" text="Count" textFill="#3c3c3c">
+         <font>
+            <Font size="35.0" />
+         </font>
+      </Label>
+      <AnchorPane layoutX="362.0" layoutY="274.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="381.0" prefWidth="689.0" style="-fx-background-color: white; -fx-background-radius: 20;">
+         <children>
+            <Line endX="543.0" layoutX="127.0" layoutY="102.0" opacity="0.4" startX="-97.48080444335938" />
+            <HBox alignment="CENTER_LEFT" layoutX="41.0" layoutY="69.0" prefHeight="30.0" prefWidth="615.0" spacing="80.0">
+               <children>
+                  <Label opacity="0.74" prefHeight="16.0" prefWidth="28.0" text="Id" textFill="#070707">
+                     <font>
+                        <Font name="Arial Bold" size="13.0" />
+                     </font>
+                  </Label>
+                  <Label opacity="0.74" prefHeight="16.0" prefWidth="56.0" text="Name" textFill="#070707">
+                     <font>
+                        <Font name="Arial Bold" size="13.0" />
+                     </font>
+                  </Label>
+                  <Label opacity="0.74" prefHeight="16.0" prefWidth="61.0" text="Mobile" textFill="#070707">
+                     <font>
+                        <Font name="Arial Bold" size="13.0" />
+                     </font>
+                  </Label>
+                  <Label opacity="0.74" prefHeight="16.0" prefWidth="55.0" text="Address" textFill="#070707">
+                     <font>
+                        <Font name="Arial Bold" size="13.0" />
+                     </font>
+                  </Label>
+                  <Label opacity="0.74" text="Gender" textFill="#070707">
+                     <font>
+                        <Font name="Arial Bold" size="13.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <ScrollPane layoutX="37.0" layoutY="120.0" prefHeight="257.0" prefWidth="615.0" style="-fx-background-color: white;">
+               <content>
+                  <VBox fx:id="vBox" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="254.0" prefWidth="600.0" style="-fx-background-color: white;" />
+               </content>
+            </ScrollPane>
+            <AnchorPane layoutX="638.0" layoutY="118.0" prefHeight="257.0" prefWidth="20.0" style="-fx-background-color: white;" />
+            <Label alignment="CENTER" layoutX="28.0" layoutY="6.0" opacity="0.64" prefHeight="50.0" prefWidth="315.0" text="Pending Payment">
+               <font>
+                  <Font size="40.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <Text fx:id="hour" fill="#3c3c3c" layoutX="1164.0" layoutY="113.0" opacity="0.64" strokeType="OUTSIDE" strokeWidth="0.0" text="12">
+         <font>
+            <Font name="Arial Bold" size="100.0" />
+         </font>
+      </Text>
+      <Text fx:id="min" fill="#545353" layoutX="1163.0" layoutY="208.0" opacity="0.64" strokeType="OUTSIDE" strokeWidth="0.0" text="12">
+         <font>
+            <Font name="Arial Bold" size="100.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

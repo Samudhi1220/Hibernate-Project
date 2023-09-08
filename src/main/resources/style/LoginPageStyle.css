@@ -1,0 +1,39 @@
+.loginWindow{
+    /*-fx-background-color: #424242;*/
+    -fx-background-radius: 40px;
+    -fx-effect: dropshadow( gaussian , #4D4C4C,40,0.1,0,0);
+    -fx-background-color: linear-gradient(to right, #d2d2d2, #a4594f);
+}
+.text-field{
+    -fx-border-color: black;
+    -fx-border-radius: 10;
+    -fx-background-radius: 10;
+    -fx-prompt-text-fill: black;
+    -fx-text-fill: black;
+    -fx-font-weight: bold;
+    -fx-font-size: 15;
+}
+.login-button{
+    -fx-background-radius: 10;
+    -fx-background-color: #211c1c;
+    -fx-font-size: 15;
+    -fx-text-fill: #fff;
+    -fx-font-weight: bold;
+    -fx-effect: dropshadow( gaussian , #274F89,40,0.1,0,0);
+
+}
+.login-button:hover{
+    -fx-background-radius: 10;
+    -fx-background-color: #ffffff;
+    -fx-font-size: 16;
+    -fx-text-fill:#274F89 ;
+    -fx-font-weight: bold;
+    -fx-effect: dropshadow( gaussian , #FFFFFF,40,0.1,0,0);
+}
+.createAccountText{
+    -fx-text-fill: black;
+}
+.createAccountText:hover{
+    -fx-effect: dropshadow( gaussian , #FFFFFF,40,0.1,0,0);
+    -fx-text-fill: white;
+}

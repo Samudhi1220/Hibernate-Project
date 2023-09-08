@@ -1,0 +1,86 @@
+.backBtn{
+    -fx-shape: "M 100 300 L 160 240 L 160 260 L 120 300 L 160 340 L 160 360 L 100 300";
+    -fx-background-color:white;
+    -fx-effect: dropshadow(gaussian, #33383C, 10, 0.1, 0, 0);
+}
+.backBtn:hover{
+    -fx-background-color: #575757;
+    -fx-effect: dropshadow(gaussian, #FFFFFF, 30, 0.1, 0, 0);
+}
+.countBox{
+    -fx-background-radius: 70;
+    -fx-background-color: #311313;
+    -fx-effect: dropshadow(gaussian, #FFFFFF, 10, 0.1, 0, 0);
+}
+.countBox:hover{
+    -fx-background-color: #520303;
+    -fx-effect: dropshadow(gaussian, #FFFFFF, 20, 0.1, 0, 0);
+}
+.countBoxText{
+    -fx-font-size: 15;
+    -fx-font-weight: bold;
+    -fx-text-fill: #c7c6c6;
+    -fx-alignment: center;
+}
+.homeBtn{
+    -fx-shape: "M 160 320 L 140 340 L 120 340 L 200 260 L 280 340 L 260 340 L 200 280 L 160 320 L 160 400 L 180 400 L 180 360 L 220 360 L 220 400 L 240 400 L 240 400 L 240 400 L 240 400 L 240 400 L 240 320  ";
+    -fx-background-color: white;
+    -fx-effect: dropshadow(gaussian, #FFFFFF, 5, 0.1, 0, 0);
+}
+.homeBtn:hover{
+    -fx-background-color: white;
+    -fx-effect: dropshadow(gaussian, #FFFFFF, 30, 0.1, 0, 0);
+}
+.tableColum{
+    -fx-border-color: white;
+    -fx-border-radius: 20px;
+}
+.addBtn{
+    -fx-background-color: #cecece;
+    -fx-effect: dropshadow(gaussian, #FFFFFF, 10, 0.1, 0, 0);
+    -fx-background-radius: 100%;
+}
+.popupwindow{
+    -fx-shape: "M 270 350 Q 250 350 250 330 L 250 300 Q 250 280 270 280 L 390 280 Q 410 280 410 300 L 410 330 Q 410 350 390 350 L 350 350 Q 330 350 330 390 Q 330 350 310 350 L 270 350 ";
+    -fx-background-color: white;
+    -fx-effect: dropshadow(gaussian, #FFFFFF, 10, 0.1, 0, 0);
+}
+.searchBar{
+    -fx-border-color: #000000;
+    -fx-border-radius: 20px;
+    -fx-prompt-text-fill: #000000;
+    -fx-text-fill: #000000;
+    -fx-font-size: 20px;
+}
+.popupwindowBack{
+    -fx-shape: "M 240 380 L 200 380 Q 160 380 160 340 L 160 280 Q 160 240 200 240 L 400 240 Q 440 240 440 280 L 440 340 Q 440 380 400 380 L 360 380 Q 340 400 400 440 Q 300 380 320 380 L 240 380 ";
+    -fx-background-color: white;
+    -fx-effect: dropshadow(gaussian, #FFFFFF, 10, 0.1, 0, 0);
+}
+.addPane{
+    -fx-background-color: #33383C;
+    -fx-effect: dropshadow(gaussian, #FFFFFF, 10, 0.1, 0, 0);
+    -fx-background-radius: 30px;
+}
+.addText{
+    -fx-border-color: #FFFF;
+    -fx-border-radius: 5;
+    -fx-prompt-text-fill: White;
+    -fx-font-size: 12;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+    -fx-alignment: center;
+}
+.addText .cell:selected{
+    -fx-text-fill: white;
+}
+.actionBtn {
+    -fx-background-color: #0e78af;
+    -fx-effect: dropshadow(gaussian, #FFFFFF, 10, 0.1, 0, 0);
+    -fx-background-radius: 10px;
+}
+
+.actionBtn:hover{
+    -fx-background-color: #236DD8;
+    -fx-effect: dropshadow(gaussian, #FFFFFF, 30, 0.1, 0, 0);
+}
